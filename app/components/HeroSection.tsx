@@ -108,10 +108,10 @@ export default function HeroSection() {
           </div>
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-[#31231E] ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
+              Encontrá aquí más información sobre nuestros cortes.{' '}
               <a href="#" className="font-semibold text-[#31231E]">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
+                Ver Catálogo<span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
@@ -128,10 +128,10 @@ export default function HeroSection() {
                 href="#"
                 className="rounded-md bg-[#31231E] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get started
+                Contactanos
               </a>
               <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Learn more <span aria-hidden="true">→</span>
+                Ver Productos <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
