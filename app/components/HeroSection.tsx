@@ -98,7 +98,7 @@ export default function HeroSection() {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-28">
           <div className='pb-8'>
             <img
               className="mx-auto h-48 lg:h-80 w-auto"
