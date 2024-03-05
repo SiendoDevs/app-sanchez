@@ -1,18 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
-
-const navigation = [
-  { name: 'Productos', href: 'products' },
-  { name: 'Empresa', href: '#' },
-  { name: 'Exportación', href: '#' },
-  { name: 'Contacto', href: '#' },
-];
-
 
 export default function HeroSection() {
+  
   return (
     <div className=" bg-[#fff7ed]">
-      <Navbar navigation={navigation} />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-28">
           <div className='pb-8'>
@@ -33,7 +24,7 @@ export default function HeroSection() {
           </div>
           <div className="text-center">
             <h1 className="text-3xl font-bold tracking-tight text-[#31231E] sm:text-6xl">
-              Carne Vacuna Argentina
+              Carne de Res <br></br> Argentina
             </h1>
             <p className="mt-6 text-lg leading-6 text-[#31231E]">
               Productores y abastecedores de carne vacuna en la provincia de Buenos Aires.

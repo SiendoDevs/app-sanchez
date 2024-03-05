@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
@@ -14,6 +16,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ navigation }) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
 
     return (
         <header className="absolute inset-x-0 top-0 z-50">
@@ -53,7 +56,7 @@ const Navbar: React.FC<NavbarProps> = ({ navigation }) => {
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center">
                    
-                    <a href="#" className="text-sm font-semibold leading-6 text-[#31231E]">
+                    <a href="/signin" className="text-sm font-semibold leading-6 text-[#31231E]">
                         Entrar <span aria-hidden="true">&rarr;</span>
                     </a>
 
